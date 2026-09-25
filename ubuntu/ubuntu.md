@@ -14,9 +14,27 @@ Berikut adalah penjelasan fungsi untuk masing-masing opsi:
 | **Boot from next volume** | Batal *booting* dari media instalasi ini dan mencoba memuat OS dari urutan penyimpanan berikutnya (misalnya Windows di *hard disk* internal). |
 | **UEFI Firmware Settings** | Jalan pintas untuk *restart* dan langsung masuk ke menu pengaturan BIOS/UEFI komputer tanpa perlu repot menekan tombol *keyboard*. |
 
-<img width="250" height="260" alt="Image" src="https://github.com/user-attachments/assets/8bb6b840-e89d-4d99-95c6-a54b905528ec" />
+---
 
 Tunggu Proses Bootingnya
+
+<img width="250" height="260" alt="Image" src="https://github.com/user-attachments/assets/8bb6b840-e89d-4d99-95c6-a54b905528ec" />
+
+---
+
+Pilih Bahasa
+
+<img width="749" height="493" alt="Image" src="https://github.com/user-attachments/assets/59771a96-5fc0-4cde-935e-74d894854307" />
+
+---
+
+Next
+
+<img width="810" height="487" alt="Image" src="https://github.com/user-attachments/assets/46a7a72c-bee9-4adb-baa9-8e237585beae" />
+
+---
+
+
 
 ### 1. Pemilihan Mode Penggunaan (Try vs. Install)
 
