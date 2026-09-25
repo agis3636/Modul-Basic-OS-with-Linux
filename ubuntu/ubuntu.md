@@ -56,6 +56,8 @@ SKip Update
 
 Layar pertama akan meminta Anda menentukan tujuan penggunaan sistem operasi.
 
+<img width="459" height="253" alt="image" src="https://github.com/user-attachments/assets/54436380-078c-4296-a197-c9cd8bc90d0c" />
+
 | Pilihan | Fungsi Utama |
 | --- | --- |
 | **Install Ubuntu** | Memasang sistem operasi Ubuntu secara permanen ke dalam *hard disk* (atau virtual disk). Data dan sistem akan tersimpan permanen. |
@@ -69,12 +71,17 @@ Layar pertama akan meminta Anda menentukan tujuan penggunaan sistem operasi.
 
 Langkah ini menentukan bagaimana proses *setup* akan berjalan.
 
-| Pilihan | Cara Kerja |
-| --- | --- |
-| **Interactive installation** | Instalasi manual. Pengguna akan dipandu secara visual langkah demi langkah untuk mengatur bahasa, partisi disk, hingga pembuatan akun. |
-| **Automated installation** | Instalasi otomatis tanpa campur tangan pengguna. Menggunakan file *script* (`autoinstall.yaml`) untuk mempercepat instalasi massal dengan konfigurasi yang seragam. |
+<img width="479" height="303" alt="image" src="https://github.com/user-attachments/assets/29f9bfa8-fb54-4e07-8bac-4afd928101e8" />
 
-**Instruksi Praktikum:** Pilih **Interactive installation** agar setiap tahapan konfigurasi dapat dipelajari dan dipraktikkan secara langsung.
+Pilih **Interactive installation**. Ini adalah pilihan standar untuk dipandu langkah demi langkah secara manual.
+
+Berikut penjelasan untuk ketiga opsi tersebut:
+
+| Opsi | Penjelasan |
+| --- | --- |
+| **Interactive installation** | Instalasi normal di mana Anda akan mengatur semuanya (bahasa, jaringan, partisi *disk*) secara manual langkah demi langkah. |
+| **Automated with autoinstall file** | Instalasi otomatis menggunakan file konfigurasi khusus (`autoinstall.yaml`). Opsi ini dipakai oleh *sysadmin* tingkat lanjut yang ingin menyalin pengaturan instalasi yang sama ke puluhan server agar cepat. |
+| **Automated with Landscape** | Instalasi otomatis yang dikendalikan dari jarak jauh melalui Landscape (sistem manajemen server dari Canonical/Ubuntu). Opsi ini khusus untuk lingkungan perusahaan/organisasi berskala besar. |
 
 ---
 
