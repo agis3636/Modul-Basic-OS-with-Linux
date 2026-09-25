@@ -50,13 +50,13 @@ SKip Update
 
 <img width="501" height="403" alt="image" src="https://github.com/user-attachments/assets/a8a36a9e-704c-47f7-8462-3b6b57ded30e" />
 
-
+---
 
 ### 1. Pemilihan Mode Penggunaan (Try vs. Install)
 
 Layar pertama akan meminta Anda menentukan tujuan penggunaan sistem operasi.
 
-<img width="459" height="253" alt="image" src="https://github.com/user-attachments/assets/54436380-078c-4296-a197-c9cd8bc90d0c" />
+<img width="816" height="457" alt="image" src="https://github.com/user-attachments/assets/e39d0107-8688-4318-ae77-dbabd34ff300" />
 
 | Pilihan | Fungsi Utama |
 | --- | --- |
@@ -71,7 +71,7 @@ Layar pertama akan meminta Anda menentukan tujuan penggunaan sistem operasi.
 
 Langkah ini menentukan bagaimana proses *setup* akan berjalan.
 
-<img width="479" height="303" alt="image" src="https://github.com/user-attachments/assets/29f9bfa8-fb54-4e07-8bac-4afd928101e8" />
+<img width="814" height="483" alt="image" src="https://github.com/user-attachments/assets/aea8dec8-9ff4-4b05-846f-c23754d900a7" />
 
 Pilih **Interactive installation**. Ini adalah pilihan standar untuk dipandu langkah demi langkah secara manual.
 
@@ -89,6 +89,8 @@ Berikut penjelasan untuk ketiga opsi tersebut:
 
 Menentukan seberapa banyak perangkat lunak yang langsung tersedia setelah instalasi selesai.
 
+<img width="816" height="448" alt="image" src="https://github.com/user-attachments/assets/30d9d70e-2951-4a13-a00e-c0371e6a1755" />
+
 | Pilihan | Isi Paket | Dampak pada Sistem |
 | --- | --- | --- |
 | **Default selection** | Minimalis (Hanya *web browser* dan utilitas dasar). | Proses instalasi sangat cepat, hemat kapasitas *storage*, dan membebani RAM lebih sedikit. |
@@ -101,6 +103,8 @@ Menentukan seberapa banyak perangkat lunak yang langsung tersedia setelah instal
 ### 4. Perangkat Lunak Pihak Ketiga & Format Media
 
 Bagian ini menangani *driver* perangkat keras tertutup (*proprietary*) dan *codec* multimedia berlisensi. Terdapat perbedaan perlakuan tergantung pada media instalasinya.
+
+<img width="811" height="467" alt="image" src="https://github.com/user-attachments/assets/58a8f96c-a3e5-4a1e-9ae4-5e7e20417d18" />
 
 | Pilihan | Jika Diinstal di Fisik (*Baremetal*) | Jika Diinstal di Mesin Virtual |
 | --- | --- | --- |
@@ -115,6 +119,8 @@ Bagian ini menangani *driver* perangkat keras tertutup (*proprietary*) dan *code
 
 Menentukan bagaimana ruang penyimpanan akan dialokasikan untuk sistem operasi.
 
+<img width="810" height="446" alt="image" src="https://github.com/user-attachments/assets/0ec9e4dc-f196-4d16-9dd0-4a68e0226cb3" />
+
 | Pilihan | Fungsi & Cara Kerja |
 | --- | --- |
 | **Erase disk and install Ubuntu** | Sistem akan memformat seluruh isi disk dan membuat struktur partisi dasar Linux (seperti `/root` dan `/boot/efi`) secara otomatis. |
@@ -124,9 +130,46 @@ Menentukan bagaimana ruang penyimpanan akan dialokasikan untuk sistem operasi.
 
 ---
 
+<img width="815" height="571" alt="image" src="https://github.com/user-attachments/assets/7dd11830-2bb3-40ba-90e8-c640209e7f47" />
+
+Gambar di atas menunjukkan layar pengaturan **Encryption and file system** (Enkripsi dan sistem file) saat menginstal sistem operasi berbasis Linux (kemungkinan besar Ubuntu versi terbaru berdasarkan desain antarmukanya).
+
+Langkah ini meminta Anda untuk menentukan tingkat keamanan dan struktur partisi *hard drive/SSD*.
+
+Berikut penjelasan untuk masing-masing opsi:
+
+**1. No encryption (Paling direkomendasikan untuk penggunaan standar)**
+
+* **Penjelasan:** Data di dalam *disk* tidak dikunci (*encrypt*). Sistem akan menggunakan partisi standar (biasanya ext4).
+* **Kapan digunakan:** Pilih opsi ini jika ini adalah instalasi komputer rumahan, *server* latihan, atau jika *disk* Anda tidak menyimpan data rahasia/sensitif tingkat tinggi. Instalasi dan proses memuat (*booting*) akan sedikit lebih cepat.
+
+**2. Encrypt with a passphrase (Aman, tapi butuh *password* tiap menyala)**
+
+* **Penjelasan:** Menggunakan teknologi LUKS. Seluruh isi *disk* akan dikunci.
+* **Kapan digunakan:** Wajib dipilih jika ini adalah laptop kantor, laptop yang sering dibawa bepergian, atau server yang menyimpan data klien.
+* **Peringatan:** Anda **harus** memasukkan *password* (passphrase) setiap kali komputer baru dinyalakan, sebelum masuk ke menu *login* pengguna. Jika lupa *password* ini, seluruh data Anda hilang permanen dan tidak bisa dikembalikan.
+
+**3. Use hardware-backed encryption (Sangat Aman, otomatis)**
+
+* **Penjelasan:** Menggunakan *chip* keamanan bawaan komputer (seperti TPM). *Disk* akan terkunci, tetapi komputer akan membuka kuncinya secara otomatis di belakang layar saat proses *startup*.
+* **Kapan digunakan:** Sangat bagus jika perangkat keras Anda mendukung fitur ini. Keamanannya setara dengan nomor 2, namun jauh lebih praktis karena tidak perlu mengetik *password* tambahan setiap kali komputer menyala.
+
+**Advanced options (Pilihan Lanjutan):**
+
+* **Use LVM without encryption:** Menggunakan *Logical Volume Manager* tanpa dikunci. Berguna untuk *server* jika di masa depan Anda berencana menggabungkan kapasitas dari beberapa *hard drive* baru menjadi satu penyimpanan besar, atau ingin membuat *snapshot* sistem.
+* **Use ZFS without encryption (Experimental):** ZFS adalah sistem *file* yang sangat canggih dengan fitur pemulihan data mandiri (*self-healing*) bawaan dan kompresi yang bagus. Berguna untuk *server* penyimpanan data rahasia skala besar, namun membutuhkan memori (RAM) yang tinggi.
+* **Encrypt with a passphrase using ZFS (Experimental):** Sama seperti ZFS, namun ditambahkan sistem penguncian *password*.
+
+**Pilih yang mana?**
+Jika Anda ragu atau hanya melakukan instalasi biasa, biarkan pilihan tetap di **No encryption** (titik oranye), lalu klik tombol **Next**.
+
+---
+
 ### 6. Pembuatan Akun Pengguna (User Details)
 
 Tahap pengisian identitas administrator lokal pada sistem.
+
+<img width="820" height="507" alt="image" src="https://github.com/user-attachments/assets/64b059e0-7edc-448b-a621-976b453fc594" />
 
 **A. Pengisian Data Kolom Teks**
 
@@ -152,5 +195,13 @@ Tahap pengisian identitas administrator lokal pada sistem.
 
 Sistem akan menampilkan peta dunia untuk sinkronisasi jam komputer. Titik *pin* akan otomatis mendeteksi lokasi geografis jika perangkat terhubung ke internet.
 
+<img width="818" height="578" alt="image" src="https://github.com/user-attachments/assets/c0fea8d4-6ddb-412a-9a8c-9d8235eb7506" />
+
 * **Pita Biru & Area Hijau:** Menunjukkan wilayah yang beroperasi pada zona waktu yang sama dengan titik *pin*.
 * **Instruksi Praktikum:** Pastikan *pin* berada di wilayah Indonesia (seperti **Asia/Jakarta** untuk UTC+7). Klik "Continue" untuk memulai proses instalasi akhir.
+
+---
+
+<img width="817" height="577" alt="image" src="https://github.com/user-attachments/assets/ada73543-2f92-47b8-b48d-c1c6a1e79913" />
+
+Klik Install
