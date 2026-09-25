@@ -1,7 +1,9 @@
 # Instalasi Sistem Operasi Ubuntu Linux
 
+Langkah Awal
 
 <img width="208" height="96" alt="Image" src="https://github.com/user-attachments/assets/82b42da6-69f3-47cc-a25a-8d3bb96e9a1c" />
+
 
 Pilih **Try or Install Ubuntu** jika Anda ingin masuk ke sistem untuk mencoba atau menginstal OS secara normal.
 
@@ -20,11 +22,13 @@ Tunggu Proses Bootingnya
 
 <img width="250" height="260" alt="Image" src="https://github.com/user-attachments/assets/8bb6b840-e89d-4d99-95c6-a54b905528ec" />
 
+
 ---
 
 Pilih Bahasa
 
 <img width="749" height="493" alt="Image" src="https://github.com/user-attachments/assets/59771a96-5fc0-4cde-935e-74d894854307" />
+
 
 ---
 
@@ -32,11 +36,13 @@ Next
 
 <img width="810" height="487" alt="Image" src="https://github.com/user-attachments/assets/46a7a72c-bee9-4adb-baa9-8e237585beae" />
 
+
 ---
 
 Pilih Bahasa Keyboard
 
 <img width="812" height="525" alt="Image" src="https://github.com/user-attachments/assets/0451a703-ef5b-4f4d-9fbf-14c1a3ee13af" />
+
 
 ---
 
@@ -44,11 +50,13 @@ Pilih Internet LAN atau WLAN
 
 <img width="810" height="445" alt="Image" src="https://github.com/user-attachments/assets/d78c2efd-c9af-44f3-a1ff-6e32cdcd637b" />
 
+
 ---
 
-SKip Update
+Skip Update
 
 <img width="501" height="403" alt="image" src="https://github.com/user-attachments/assets/a8a36a9e-704c-47f7-8462-3b6b57ded30e" />
+
 
 ---
 
@@ -57,6 +65,7 @@ SKip Update
 Layar pertama akan meminta Anda menentukan tujuan penggunaan sistem operasi.
 
 <img width="816" height="457" alt="image" src="https://github.com/user-attachments/assets/e39d0107-8688-4318-ae77-dbabd34ff300" />
+
 
 | Pilihan | Fungsi Utama |
 | --- | --- |
@@ -72,6 +81,7 @@ Layar pertama akan meminta Anda menentukan tujuan penggunaan sistem operasi.
 Langkah ini menentukan bagaimana proses *setup* akan berjalan.
 
 <img width="814" height="483" alt="image" src="https://github.com/user-attachments/assets/aea8dec8-9ff4-4b05-846f-c23754d900a7" />
+
 
 Pilih **Interactive installation**. Ini adalah pilihan standar untuk dipandu langkah demi langkah secara manual.
 
@@ -91,6 +101,7 @@ Menentukan seberapa banyak perangkat lunak yang langsung tersedia setelah instal
 
 <img width="816" height="448" alt="image" src="https://github.com/user-attachments/assets/30d9d70e-2951-4a13-a00e-c0371e6a1755" />
 
+
 | Pilihan | Isi Paket | Dampak pada Sistem |
 | --- | --- | --- |
 | **Default selection** | Minimalis (Hanya *web browser* dan utilitas dasar). | Proses instalasi sangat cepat, hemat kapasitas *storage*, dan membebani RAM lebih sedikit. |
@@ -105,6 +116,7 @@ Menentukan seberapa banyak perangkat lunak yang langsung tersedia setelah instal
 Bagian ini menangani *driver* perangkat keras tertutup (*proprietary*) dan *codec* multimedia berlisensi. Terdapat perbedaan perlakuan tergantung pada media instalasinya.
 
 <img width="811" height="467" alt="image" src="https://github.com/user-attachments/assets/58a8f96c-a3e5-4a1e-9ae4-5e7e20417d18" />
+
 
 | Pilihan | Jika Diinstal di Fisik (*Baremetal*) | Jika Diinstal di Mesin Virtual |
 | --- | --- | --- |
@@ -121,6 +133,7 @@ Menentukan bagaimana ruang penyimpanan akan dialokasikan untuk sistem operasi.
 
 <img width="810" height="446" alt="image" src="https://github.com/user-attachments/assets/0ec9e4dc-f196-4d16-9dd0-4a68e0226cb3" />
 
+
 | Pilihan | Fungsi & Cara Kerja |
 | --- | --- |
 | **Erase disk and install Ubuntu** | Sistem akan memformat seluruh isi disk dan membuat struktur partisi dasar Linux (seperti `/root` dan `/boot/efi`) secara otomatis. |
@@ -130,7 +143,10 @@ Menentukan bagaimana ruang penyimpanan akan dialokasikan untuk sistem operasi.
 
 ---
 
+### 6. Encryption and file system
+
 <img width="815" height="571" alt="image" src="https://github.com/user-attachments/assets/7dd11830-2bb3-40ba-90e8-c640209e7f47" />
+
 
 Gambar di atas menunjukkan layar pengaturan **Encryption and file system** (Enkripsi dan sistem file) saat menginstal sistem operasi berbasis Linux (kemungkinan besar Ubuntu versi terbaru berdasarkan desain antarmukanya).
 
@@ -165,11 +181,12 @@ Jika Anda ragu atau hanya melakukan instalasi biasa, biarkan pilihan tetap di **
 
 ---
 
-### 6. Pembuatan Akun Pengguna (User Details)
+### 7. Pembuatan Akun Pengguna (User Details)
 
 Tahap pengisian identitas administrator lokal pada sistem.
 
 <img width="820" height="507" alt="image" src="https://github.com/user-attachments/assets/64b059e0-7edc-448b-a621-976b453fc594" />
+
 
 **A. Pengisian Data Kolom Teks**
 
@@ -191,17 +208,21 @@ Tahap pengisian identitas administrator lokal pada sistem.
 
 ---
 
-### 7. Pengaturan Zona Waktu (Timezone)
+### 8. Pengaturan Zona Waktu (Timezone)
 
 Sistem akan menampilkan peta dunia untuk sinkronisasi jam komputer. Titik *pin* akan otomatis mendeteksi lokasi geografis jika perangkat terhubung ke internet.
 
 <img width="818" height="578" alt="image" src="https://github.com/user-attachments/assets/c0fea8d4-6ddb-412a-9a8c-9d8235eb7506" />
+
 
 * **Pita Biru & Area Hijau:** Menunjukkan wilayah yang beroperasi pada zona waktu yang sama dengan titik *pin*.
 * **Instruksi Praktikum:** Pastikan *pin* berada di wilayah Indonesia (seperti **Asia/Jakarta** untuk UTC+7). Klik "Continue" untuk memulai proses instalasi akhir.
 
 ---
 
+**Terakhir**
+
 <img width="817" height="577" alt="image" src="https://github.com/user-attachments/assets/ada73543-2f92-47b8-b48d-c1c6a1e79913" />
+
 
 Klik Install
