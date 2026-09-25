@@ -40,9 +40,15 @@ Pilih Bahasa Keyboard
 
 ---
 
+Pilih Internet LAN atau WLAN
+
 <img width="810" height="445" alt="Image" src="https://github.com/user-attachments/assets/d78c2efd-c9af-44f3-a1ff-6e32cdcd637b" />
 
 ---
+
+SKip Update
+
+<img width="501" height="403" alt="image" src="https://github.com/user-attachments/assets/a8a36a9e-704c-47f7-8462-3b6b57ded30e" />
 
 
 
