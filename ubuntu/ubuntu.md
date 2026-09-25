@@ -34,6 +34,16 @@ Next
 
 ---
 
+Pilih Bahasa Keyboard
+
+<img width="812" height="525" alt="Image" src="https://github.com/user-attachments/assets/0451a703-ef5b-4f4d-9fbf-14c1a3ee13af" />
+
+---
+
+<img width="810" height="445" alt="Image" src="https://github.com/user-attachments/assets/d78c2efd-c9af-44f3-a1ff-6e32cdcd637b" />
+
+---
+
 
 
 ### 1. Pemilihan Mode Penggunaan (Try vs. Install)
