@@ -27,7 +27,7 @@ Filesystem bisa dikelompokkan berdasarkan tujuan penggunaannya. Tidak semua file
 
 ### A. Filesystem untuk flashdisk dan penyimpanan eksternal
 
-[Transfer Files from One Computer to Another Computer in Windows](https://images.openai.com/static-rsc-4/UoThBwjfUf5IhB_yFfxfUKSbrGps2tZbjugwk-1C-ZvsnfbDs5V-F_8cxUIjsFfCp9KiieezhC7G1tyTCs106mhX9sza2BoL1kwbrP9IH98m0S7RyhEa3b7bbWj79Ec5EV5oNAKTaW-2jAEU7tFoj_6TL6MtTHOY_o0fixeGAJM?purpose=inline)
+<img width="700" height="442" alt="Image" src="https://github.com/user-attachments/assets/1f795f77-b721-476d-8012-1059ac9eccf4" />
 
 1\. FAT32 (File Allocation Table 32)
 
@@ -42,7 +42,7 @@ Filesystem lama yang masih sangat banyak digunakan pada flashdisk, kartu memori,
 
 Cocok untuk: flashdisk kecil, perangkat yang mensyaratkan FAT32, dan file berukuran di bawah batasnya.
 
-[PenDrive SANDISK Ultra Dual Drive Go 128GB USB Typ 3.2 C / USB 3.2 Czarny - Opinie, Cena - RTV EURO AGD](https://images.openai.com/static-rsc-4/KPmkCIJAZct4jxSXgPwQXMvAFinLUeEL12dr--TfS2d7DukxgoVH_9Cjl7H5OGxRk-h2mMedzJPaKJ7dxMt-L1Q4ZPVpVr6S3E6ivjoRj80M05TXpZqvPzhI1IOjDSr8MvJbsm_Fqss0MrrvPAYuuv-t7HehjS43GlySQftZyLI?purpose=inline)
+<img width="1288" height="856" alt="Image" src="https://github.com/user-attachments/assets/f82f815e-d90f-4f9d-be63-a746d02608a6" />
 
 2\. exFAT (Extended File Allocation Table)
 
@@ -57,7 +57,7 @@ Dikembangkan untuk media penyimpanan eksternal dan file berukuran besar.
 
 Cocok untuk: flashdisk 64 GB, 128 GB, atau lebih; video besar; pemindahan file antara Windows, macOS, dan Linux.
 
-[DISCO DURO EXTERNO PORTABLE SEAGATE USB 2.0 3.0 3.1 3.2 / 2TB 2 TERA BYTES PC Y NOTEBOOKS PenDrives](https://images.openai.com/static-rsc-4/3NU2m3ZZ5trAxhY6WUIuCZzZkgf5K9jXXLjt28MsEPjPMCV6IDHFkbBkhNbk_wPIoLISZ0o--sl_Q9g_MEk0EvY2orblVH8lyJA2TvJpF6eL9kqppklcJ6lbreyMBEaZaBtWXKfTQirUYIoqwfz9iqQqpwgvuUjNx5wP2oAWZDM?purpose=inline)
+<img width="937" height="933" alt="Image" src="https://github.com/user-attachments/assets/4e68e05b-cd2c-4e72-8e3d-0c43cf1f98cc" />
 
 3\. NTFS (New Technology File System)
 
@@ -71,7 +71,7 @@ Filesystem utama yang umum digunakan pada partisi Windows.
 
 Cocok untuk: HDD/SSD eksternal yang terutama digunakan di Windows, backup Windows, dan file berukuran besar.
 
-[Macro detail of standard SD memory card and micro SD card on neutral surface.](https://images.openai.com/static-rsc-4/Dc2UpBl4m_GARNxxAFMBXEWhhBo-QFknnB3QHpQFa0FiEuJNTXmVYDOD0fVPGY9ndxI-dTlzqLOa5-N9gWy97Cf8Gx0sDTZSmzkm571o7OHKdhwCTbd04YAxexYx1NLwNbvYW2QxU_cuCjtgZ7WVcpzIhJosDz2PTvyOrkcwQXnB-ixBWhAWxZpzFFNAGk9f?purpose=inline)
+<img width="958" height="760" alt="Image" src="https://github.com/user-attachments/assets/054457eb-2736-42cd-a804-e82a57bb2c9d" />
 
 4\. FAT12 dan FAT16
 
@@ -81,7 +81,7 @@ Cocok untuk: perangkat lama yang secara khusus mensyaratkannya. Bukan pilihan um
 
 ### B. Filesystem untuk Linux
 
-[Cara Cek Spesifikasi Laptop Menggunakan Perintah Linux | by Dadan Dahman W. | Howdy Sysinfo | Medium](https://images.openai.com/static-rsc-4/y4-yYPkqBbkOkXqPyREDF7Kt9M39PQUNN84xAMMQ1TQB9g1SEVnpoJ6KsHad2QQ4JNZP6n10zx780z7f_SWLiGCFoFdvsVLkDOjCony9Ftjy_9AjL7IYZ2JOmb7LUGrvs-KYCGaZaTqnjrKD-n-C5rqWKXacJxbnGvT1R3P87js?purpose=inline)
+<img width="801" height="566" alt="Image" src="https://github.com/user-attachments/assets/4ec66e37-0f14-4869-a216-80d053073a2f" />
 
 5\. ext2
 
@@ -93,7 +93,7 @@ Filesystem Linux generasi lama yang tidak menggunakan journaling.
 
 Penggunaan: perangkat lama dan kebutuhan khusus.
 
-[lsblk Command Examples in Linux](https://images.openai.com/static-rsc-4/MLHVhqR7AnehLius6YJl2EJekPQPDJXYXNcyp8BNnQSeYt8vjSuJwDfGsJxx9VLHxJ7Wvi9AJxxdo7RTr7Cs38pgA9n2peP9pNXfo1vlZ4NgczTl4T01fBI-afaO5_PcSBiCbMu7fO8R0HYdqAn4RqO6xJHU8O20kKRiLz6YOgc?purpose=inline)
+<img width="833" height="587" alt="Image" src="https://github.com/user-attachments/assets/d625963a-96e2-4984-b261-32cf9e5b93b9" />
 
 6\. ext3
 
@@ -103,7 +103,7 @@ Journaling membantu menjaga konsistensi metadata setelah sistem mengalami crash,
 
 Penggunaan: sistem Linux lama dan perangkat yang masih menggunakannya.
 
-[Linux from scratch - Entr0phy4](https://images.openai.com/static-rsc-4/WFaKXg2xd0X_oaOoXkHwOHMqbKH-JwII1JGdT5QV6IM-mukAAE05YZoejMWda0gO6v6dq15yg-bFc9vpFXABThWZo7n3sdMtsgB8iM7mmCB7YlUV_5R3wYgEec6mnR7mnUdk0rD2cLk53VQzjNRlCAbYszx5rpql16EGGMVZuoM?purpose=inline)
+<img width="833" height="742" alt="Image" src="https://github.com/user-attachments/assets/6de65742-0e22-472b-809f-20c9290816e4" />
 
 7\. ext4
 
@@ -116,7 +116,7 @@ Filesystem Linux yang matang dan sangat umum digunakan.
 
 Penggunaan: partisi `/`, `/home`, dan partisi data Linux.
 
-[Btrfs, snapshots and rollback - Speaker Deck](https://images.openai.com/static-rsc-4/VWKscdijH0FiedK8B466pFH0mW9O8-qxytAMYNQ0Vw9WD36eaD04t_BORbmMCY6XZKZ7n1GmkFQvYw1aHc9-SymivZXfqZhdGe5V3xsis3Y4jOv9zlWYhwN2YHL6aN5ZFGLIs_8cinlMC2CeO4I7EPTKCfPh7jtu87mvn7Ljztw?purpose=inline)
+<img width="996" height="729" alt="Image" src="https://github.com/user-attachments/assets/631c4baf-0527-4587-a016-5ee731cada09" />
 
 8\. Btrfs
 
@@ -130,7 +130,7 @@ Filesystem Linux dengan fitur manajemen data yang lebih lanjut.
 
 Penggunaan: desktop atau server Linux yang membutuhkan snapshot dan fitur pengelolaan data.
 
-[Red hat enterprise linux 7 (rhel 7) | PPTX](https://images.openai.com/static-rsc-4/1-8BUwwcUKQHKSO0SrV47r6sRdvPyYR6xy1CyegYOGN6a3Pp431nqCyNoqQIB033aJkMpBAnc-3Cy9UEwJnlhGBKmJSsVCo8X6wmyS6qqXu_agJa_7oA8wDzWWU2GZfgPN4yKQ-EbgMOHJX3f7OcsPkTzPHGJ7-QkTI5UU2MRtw?purpose=inline)
+<img width="1140" height="852" alt="Image" src="https://github.com/user-attachments/assets/1a41d40c-5c53-4030-b8a5-175a52b49c68" />
 
 9\. XFS
 
@@ -143,7 +143,7 @@ Filesystem Linux yang banyak digunakan pada server dan lingkungan enterprise.
 
 Penggunaan: server, storage data, dan workload besar.
 
-[QNAP TVS-AIh1688ATX-U9-48G - Smarty.cz](https://images.openai.com/static-rsc-4/lJP65lEmK1BARTEwH9JrU6pj-ZNnPMt4j11rfkEhkx0OTpuKx5rUCZikqJ5G85uBs1AAaJi6304m9483iocsbeSur7q_9bWafva1g5_GLQCJ2eKnJ2B9bX2K8wQ0zA4PvpKqa-Ytp8x54i_oS0NcF9XYIx4rzM6qwpHyd-Rfi_U?purpose=inline)
+<img width="602" height="602" alt="Image" src="https://github.com/user-attachments/assets/dcc5e21f-e9fd-45ca-b408-85df42aba245" />
 
 10\. ZFS
 
@@ -156,7 +156,7 @@ Sistem penyimpanan yang menggabungkan pengelolaan volume dan filesystem.
 
 Penggunaan: NAS, server, backup, dan storage enterprise. ZFS bukan pilihan umum untuk memformat flashdisk.
 
-[File systems for mobile phones or handheld devices  | PPTX](https://images.openai.com/static-rsc-4/47fuvzDrRjznJxrZPjbLysBYJMyiyr--xKqOXg-5BCnULRMGfTzc8LNxrg_f05SrER3bW4MsszfGZwRt59WQxN61DWnx184vWV7KkQvX0htOlyjwAQzYfiqqr3LJgslPOFdjpsO6HQ6RN46DewzMpreqwS2hv-r5-O0OGvDzmL0?purpose=inline)
+<img width="1065" height="780" alt="Image" src="https://github.com/user-attachments/assets/a36e4538-5a6d-4d55-a655-9cae15998a65" />
 
 11\. F2FS (Flash-Friendly File System)
 
