@@ -14,11 +14,7 @@ Paket `.deb` · APT · Banyak pilihan desktop dan server
 
 Induk: Debian — didirikan pada 1993, terkenal dengan komunitas dan kebijakan paketnya.&#x20;
 
-![image](https://www.google.com/s2/favicons?domain=https://www.debian.org\&sz=32)
-
-Debian
-
-
+![Debian](https://www.google.com/s2/favicons?domain=https://www.debian.org\&sz=32)
 
 - Ubuntu — desktop, server, cloud, development.
   - Linux Mint — desktop yang nyaman bagi pengguna Windows.
@@ -73,11 +69,7 @@ Paket RPM · Zypper · YaST pada sistem yang mendukungnya
 
 Peta itu menunjukkan keluarga utama, bukan seluruh cabang. Daftar distro aktif dan hubungan turunannya dapat berbeda menurut direktori dan kriteria yang dipakai.&#x20;
 
-![image](https://www.google.com/s2/favicons?domain=https://distro.watch\&sz=32)
-
-distro.watch
-
-
+![distro.watch](https://www.google.com/s2/favicons?domain=https://distro.watch\&sz=32)
 
 ## 3. Linux dipakai untuk apa saja?
 
@@ -115,11 +107,7 @@ Catatan: Buildroot dan Yocto terutama merupakan alat untuk membangun sistem embe
 
 Dukungan arsitektur tidak otomatis berarti setiap perangkat pasti bisa menjalankan distro tersebut. Debian dan Ubuntu, misalnya, menyediakan beberapa arsitektur, tetapi daftar tepatnya berbeda berdasarkan rilis dan jenis paket.&#x20;
 
-![image](https://www.google.com/s2/favicons?domain=https://wiki.debian.org\&sz=32)
-
-Debian Wiki+1
-
-
+![Debian Wiki+1](https://www.google.com/s2/favicons?domain=https://wiki.debian.org\&sz=32)
 
 ## 5. Bedakan format paketnya
 
@@ -143,11 +131,7 @@ File paket tidak selalu bisa dipasang langsung lintas keluarga. Contohnya, paket
 - 1994–2000-an: Red Hat, SUSE, dan keluarga distro lain ikut membentuk ekosistem desktop dan server.
 - 2004 dan seterusnya: Ubuntu mempermudah adopsi desktop/server, kemudian Linux makin luas dipakai pada cloud, container, perangkat jaringan dan sistem embedded. Android juga memakai kernel Linux, tetapi bukan distro GNU/Linux desktop biasa.&#x20;
 
-![image](https://www.google.com/s2/favicons?domain=https://www.debian.org\&sz=32)
-
-  Debian+2
-
-
+![Debian+2](https://www.google.com/s2/favicons?domain=https://www.debian.org\&sz=32)
 
 ## 7. Pilih distro berdasarkan kebutuhan
 
