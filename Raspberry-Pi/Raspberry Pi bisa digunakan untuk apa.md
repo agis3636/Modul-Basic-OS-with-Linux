@@ -6,7 +6,7 @@ Raspberry Pi itu komputer mini seukuran kartu kredit. Bukan distro Linux, melain
 
 ![Webserver auf dem Raspberry Pi: Apache vs. Nginx – Unterschiede, Einsatz und Installation • Raspberry Pi Projekte, Tutorials & News](https://images.openai.com/static-rsc-4/w5Gbo0ciI0ZHVsqo2Cu4hguzpeYX1GBnRVxewrOZFROLiOKGY2OQkSK24N9EOp-QdkkkveCZfn-7gSn8EtfwQKgf6bdDgMmuIQ_R_2Mj908Yicb-Sx5bdABityQmlaNGm1Qy2GTUBHFcol0AsWRCJICkXq75RMw3Bdd5ZhzFRKQ?purpose=inline)
 
-7
+---
 
 ## Raspberry Pi bisa digunakan untuk apa?
 
