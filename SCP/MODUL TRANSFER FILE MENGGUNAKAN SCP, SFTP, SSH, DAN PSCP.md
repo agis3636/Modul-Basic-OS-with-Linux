@@ -1,23 +1,6 @@
-# MODUL PRAKTIKUM
-
 # TRANSFER FILE MENGGUNAKAN SCP, SFTP, SSH, DAN PSCP
 
-## A. Tujuan Pembelajaran
-
-Setelah mengikuti praktikum ini, mahasiswa diharapkan mampu:
-
-1. Memahami konsep dasar transfer file antara komputer lokal dan server.
-2. Menggunakan perintah `scp` untuk upload dan download file.
-3. Menggunakan opsi penting pada `scp`, seperti `-r`, `-P`, `-i`, dan `-v`.
-4. Menggunakan `sftp` sebagai alternatif transfer file secara interaktif.
-5. Mengakses server menggunakan `ssh`.
-6. Memahami perbedaan direktori lokal dan direktori server.
-7. Menggunakan `pscp` di Windows melalui PuTTY.
-8. Mengatasi error umum saat transfer file.
-
----
-
-## B. Konsep Dasar
+## A. Konsep Dasar
 
 Sebelum menggunakan `scp`, mahasiswa harus paham dulu dua istilah penting:
 
@@ -60,7 +43,7 @@ Artinya:
 
 ---
 
-## C. Format Dasar SCP
+## B. Format Dasar SCP
 
 SCP digunakan untuk menyalin file secara aman melalui koneksi SSH.
 
@@ -85,7 +68,7 @@ Penjelasan:
 
 ---
 
-## D. Memahami Format Path SCP
+## C. Memahami Format Path SCP
 
 Format alamat remote:
 
@@ -131,7 +114,7 @@ Catatan penting: biasanya user biasa tidak punya izin menulis langsung ke `/`. L
 
 ---
 
-## E. Persiapan Server SSH
+## D. Persiapan Server SSH
 
 Agar `scp`, `sftp`, dan `ssh` bisa digunakan, server harus memiliki layanan SSH.
 
@@ -244,7 +227,7 @@ ssh -p 1234 user@10.10.10.10
 
 ---
 
-## F. Login ke Server Menggunakan SSH
+## E. Login ke Server Menggunakan SSH
 
 Sebelum melakukan transfer file, sebaiknya mahasiswa mencoba login ke server terlebih dahulu.
 
@@ -320,7 +303,7 @@ Menampilkan isi direktori server.
 
 ---
 
-## G. Membuat File untuk Latihan
+## F. Membuat File untuk Latihan
 
 Sebelum upload file, mahasiswa bisa membuat file latihan terlebih dahulu.
 
@@ -379,7 +362,7 @@ cat file.txt
 
 ---
 
-## H. Upload File ke Server Menggunakan SCP
+## G. Upload File ke Server Menggunakan SCP
 
 Upload artinya mengirim file dari komputer lokal ke server.
 
@@ -535,7 +518,7 @@ Gunakan `-r` hanya untuk folder.
 
 ---
 
-## I. Download File dari Server Menggunakan SCP
+## H. Download File dari Server Menggunakan SCP
 
 Download artinya mengambil file dari server ke komputer lokal.
 
@@ -627,7 +610,7 @@ Mengambil file dari server menggunakan port khusus dan private key.
 
 ---
 
-## J. Perbedaan Posisi Source dan Destination
+## I. Perbedaan Posisi Source dan Destination
 
 Dalam `scp`, posisi sangat penting.
 
@@ -656,7 +639,7 @@ Kesimpulan:
 
 ---
 
-## K. Contoh Transfer Antarserver
+## J. Contoh Transfer Antarserver
 
 SCP juga bisa digunakan untuk menyalin file dari satu server ke server lain.
 
@@ -670,7 +653,7 @@ Mengirim file dari server `10.10.10.10` ke server `10.10.10.20`.
 
 ---
 
-## L. Mengirim Isi File Lokal ke Server dengan SSH
+## K. Mengirim Isi File Lokal ke Server dengan SSH
 
 Contoh:
 
@@ -1184,7 +1167,7 @@ sftp user@10.10.10.10
 
 ---
 
-## U. Mini Quiz
+## U. Tebak-tebakan
 
 1. Apa perbedaan upload dan download pada SCP?
 2. Apa fungsi tanda titik `.` pada perintah SCP?
@@ -1201,6 +1184,6 @@ Bagian yang paling penting untuk ditekankan ke mahasiswa: **urutan `scp` adalah 
 
 # modul ini diambil dari :
 
-[1]: https://man.openbsd.org/scp.1 "scp(1) - OpenBSD manual pages"
-[2]: https://man.openbsd.org/sftp.1 "sftp(1) - OpenBSD manual pages"
-[3]: https://ubuntu.com/server/docs/how-to/security/openssh-server/?utm_source=chatgpt.com "OpenSSH server"
+![1]: https://man.openbsd.org/scp.1 "scp(1) - OpenBSD manual pages"
+![2]: https://man.openbsd.org/sftp.1 "sftp(1) - OpenBSD manual pages"
+![3]: https://ubuntu.com/server/docs/how-to/security/openssh-server/?utm_source=chatgpt.com "OpenSSH server"
