@@ -1184,6 +1184,12 @@ Bagian yang paling penting untuk ditekankan ke mahasiswa: **urutan `scp` adalah 
 
 # modul ini diambil dari :
 
+* [Referensi scp][1]
+* [Referensi sftp][2]
+* [Referensi OpenSSH][3]
+
+---
+
 [1]: https://man.openbsd.org/scp.1 "scp(1) - OpenBSD manual pages"
 [2]: https://man.openbsd.org/sftp.1 "sftp(1) - OpenBSD manual pages"
 [3]: https://ubuntu.com/server/docs/how-to/security/openssh-server/?utm_source=chatgpt.com "OpenSSH server"
