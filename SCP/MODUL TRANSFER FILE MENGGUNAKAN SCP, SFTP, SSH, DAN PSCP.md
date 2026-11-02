@@ -673,7 +673,7 @@ Penjelasan:
 
 ---
 
-## M. SFTP
+## L. SFTP
 
 SFTP adalah metode transfer file yang berjalan di atas SSH. Berbeda dengan `scp`, SFTP bersifat interaktif seperti masuk ke mode khusus transfer file.
 
@@ -867,7 +867,7 @@ Keluar dari mode SFTP.
 
 ---
 
-## N. Mengakses Server Menggunakan File Manager Nautilus
+## M. Mengakses Server Menggunakan File Manager Nautilus
 
 Pada Linux desktop seperti Ubuntu, server juga bisa dibuka melalui file manager.
 
@@ -894,7 +894,7 @@ Mengakses folder server melalui tampilan GUI, bukan terminal.
 
 ---
 
-## O. Menggunakan PSCP di Windows dengan PuTTY
+## N. Menggunakan PSCP di Windows dengan PuTTY
 
 Jika menggunakan Windows, mahasiswa bisa memakai `pscp.exe` dari PuTTY.
 
@@ -952,7 +952,7 @@ Mengirim folder dari Windows ke server Linux.
 
 ---
 
-## P. Opsi Penting pada SCP
+## O. Opsi Penting pada SCP
 
 | Opsi | Fungsi                            | Contoh                                              |
 | ---- | --------------------------------- | --------------------------------------------------- |
@@ -972,7 +972,7 @@ Catatan penting:
 
 ---
 
-## Q. Kesalahan Umum dan Cara Mengatasinya
+## P. Kesalahan Umum dan Cara Mengatasinya
 
 | Error                        | Penyebab                                                | Solusi                                    |
 | ---------------------------- | ------------------------------------------------------- | ----------------------------------------- |
@@ -986,7 +986,7 @@ Catatan penting:
 
 ---
 
-## R. Best Practice Keamanan
+## Q. Best Practice Keamanan
 
 Agar penggunaan SCP dan SSH lebih aman, perhatikan hal berikut:
 
@@ -1006,7 +1006,7 @@ chmod 600 ~/.ssh/id_rsa
 
 ---
 
-## S. Latihan Praktikum
+## R. Latihan Praktikum
 
 ### Latihan 1: Membuat File Lokal
 
@@ -1121,7 +1121,7 @@ sftp> exit
 
 ---
 
-## T. Ringkasan Materi
+## S. Ringkasan Materi
 
 SCP digunakan untuk menyalin file secara aman antara komputer lokal dan server melalui koneksi SSH. Format utamanya adalah:
 
@@ -1167,7 +1167,7 @@ sftp user@10.10.10.10
 
 ---
 
-## U. Tebak-tebakan
+## T. Tebak-tebakan
 
 1. Apa perbedaan upload dan download pada SCP?
 2. Apa fungsi tanda titik `.` pada perintah SCP?
