@@ -1,5 +1,3 @@
-Tujuan: Menyiapkan Ubuntu agar siap digunakan untuk aktivitas harian, multimedia, coding, dan praktik Linux.
-
 Buka Terminal dengan `Ctrl + Alt + T`.
 
 ## 1. Update dan upgrade sistem
@@ -260,33 +258,3 @@ sudo apt install ./nama-file-vscode.deb
 Ganti `nama-file-vscode.deb` dengan nama file yang benar.
 
 Paket resmi VS Code dapat menambahkan repository dan signing key Microsoft agar pembaruan selanjutnya bisa dikelola melalui package manager.
-
-
-
-## 6. Cek hasil instalasi dan kondisi sistem
-
-Setelah selesai, cek beberapa informasi penting:
-
-```
-# Identitas Ubuntu
-hostnamectl
-
-# Versi kernel
-uname -r
-
-# IP address
-ip -br addr
-
-# Kapasitas storage
-df -h
-
-# Penggunaan RAM
-free -h
-
-# Aplikasi yang punya pembaruan
-apt list --upgradable
-
-# Service yang gagal
-systemctl --failed
-```
-
